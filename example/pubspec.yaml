@@ -12,8 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  bootstrap_typography2: ^1.1.0
-  bootstrap_like_breakpoints: ^0.1.0
+  bootstrap_like_breakpoints:
+    path: ../
 
 flutter:
   uses-material-design: true

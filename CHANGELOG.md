@@ -1,3 +1,10 @@
+## 0.2.1
+
+- removed ```bootstrap_typography2``` from example
+- relative path to package from example ```pubspec.yaml```
+- changed to MIT license to allow more freedom
+- added a git repo link
+
 ## 0.2.0
 
 - Added:

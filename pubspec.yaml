@@ -1,6 +1,7 @@
 name: bootstrap_like_breakpoints
 description: Breakpoints that are like the breakpoints in Bootstrap. Provides values for some Bootstrap like features.
-version: 0.2.0
+version: 0.2.1
+repository: https://github.com/Honeyman-Applications/bootstrap_like_breakpoints
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:bootstrap_typography2/bootstrap_typography2.dart';
 import 'package:bootstrap_like_breakpoints/bootstrap_like_breakpoints.dart';
 
 void main() {
@@ -10,67 +9,49 @@ void main() {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              H1(
-                BSTextParams(
-                  "Boostrap Like Breakpoints Example",
-                  textAlignment: TextAlign.center,
-                ),
+              Text(
+                "Boostrap Like Breakpoints Example",
+                textAlign: TextAlign.center,
               ),
-              H3(
-                BSTextParams(
-                  "See values displayed below",
-                  textAlignment: TextAlign.center,
-                ),
+              Text(
+                "See values displayed below",
+                textAlign: TextAlign.center,
               ),
-              H2(
-                BSTextParams(
-                  "_breakPointLabels",
-                ),
+              Text(
+                "_breakPointLabels",
               ),
-              P(
-                BSTextParams(
-                  "${BSBreakPoints.getBreakPointLabels().toString()}",
-                ),
+              Text(
+                "${BSBreakPoints.getBreakPointLabels().toString()}",
               ),
-              H2(
-                BSTextParams(
-                  "_breakPoints",
-                ),
+              Text(
+                "_breakPoints",
               ),
-              P(
-                BSTextParams("screen width >= to breakpoint value"),
+              Text(
+                "screen width >= to breakpoint value",
               ),
-              P(
-                BSTextParams(
-                  "${BSBreakPoints.getBreakPoints().toString()}",
-                ),
+              Text(
+                "${BSBreakPoints.getBreakPoints().toString()}",
               ),
-              H2(
-                BSTextParams(
-                  "_containerWidths",
-                ),
+              Text(
+                "_containerWidths",
               ),
-              P(
-                BSTextParams(
-                  "${BSBreakPoints.getContainerWidths().toString()}",
-                ),
+              Text(
+                "${BSBreakPoints.getContainerWidths().toString()}",
               ),
-              H2(
-                BSTextParams("valueBasedOnBreakPoint"),
+              Text(
+                "valueBasedOnBreakPoint",
               ),
-              P(
-                BSTextParams(
-                  BSBreakPoints.valueBasedOnBreakPoint(
-                    context: context,
-                    map: <String, dynamic>{
-                      "": "",
-                      "sm": "sm",
-                      "md": "md",
-                      "lg": "lg",
-                      "xl": "xl",
-                      "xxl": "xxl",
-                    },
-                  ),
+              Text(
+                BSBreakPoints.valueBasedOnBreakPoint(
+                  context: context,
+                  map: <String, dynamic>{
+                    "": "",
+                    "sm": "sm",
+                    "md": "md",
+                    "lg": "lg",
+                    "xl": "xl",
+                    "xxl": "xxl",
+                  },
                 ),
               ),
             ],
